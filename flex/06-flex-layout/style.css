@@ -32,13 +32,16 @@ a {
   padding-right: 16px;
 }
 
-.header {
-  margin-bottom: auto;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .footer {
   background-color: #eee;
-  margin-top: auto;
 }
 
 button {
